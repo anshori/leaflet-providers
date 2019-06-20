@@ -818,6 +818,14 @@
 				Hybrid: 'y&x'
 			}
 		},
+		RupabumiIndonesia: {
+			url: 'https://portal.ina-sdi.or.id/arcgis/rest/services/RBI/INDONESIA/MapServer/tile/{z}/{y}/{x}',
+			options: {
+				maxZoom: 20,
+				attribution: 'RBI 2019 BIG',
+				bounds: [[8,144], [-15,90]]
+			}
+		}
 	};
 
 	L.tileLayer.provider = function (provider, options) {
