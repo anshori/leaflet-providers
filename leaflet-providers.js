@@ -819,10 +819,10 @@
 			}
 		},
 		RupabumiIndonesia: {
-			url: 'https://portal.ina-sdi.or.id/arcgis/rest/services/RBI/INDONESIA/MapServer/tile/{z}/{y}/{x}',
+			url: 'https://geoservices.big.go.id/rbi/rest/services/BASEMAP/Rupabumi_Indonesia/MapServer/tile/{z}/{y}/{x}',
 			options: {
 				maxZoom: 20,
-				attribution: 'RBI 2019 BIG',
+				attribution: 'Badan Informasi Geospasial',
 				bounds: [[8,144], [-15,90]]
 			}
 		}
