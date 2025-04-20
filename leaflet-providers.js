@@ -825,6 +825,13 @@
 				attribution: 'Badan Informasi Geospasial',
 				bounds: [[8,144], [-15,90]]
 			}
+		},
+		F4map: {
+			url: 'https://tile.f4map.com/tiles/f4_2d/{z}/{x}/{y}.png',
+			options: {
+				maxZoom: 20,
+				attribution: 'F4map',
+			}
 		}
 	};
 
